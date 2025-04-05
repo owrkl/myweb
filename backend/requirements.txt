@@ -1,0 +1,10 @@
+Django
+djangorestframework
+gunicorn
+psycopg2
+django-cors-headers
+flask
+flask-cors
+routes
+api
+requests

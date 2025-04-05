@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+  overflow: visible;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #222222;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.syflag{
+  border: 4px solid black;
+}
+
+@font-face {
+  font-family: 'IBMPlex';
+  src: url('./fonts/IBMPlexSansArabic-Thin.ttf')
+  format('truetype');
+  font-weight: thin;
+}
+
+@font-face {
+  font-family: 'IBMPlex';
+  src: url('./fonts/IBMPlexSansArabic-Regular.ttf')
+  format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'IBMPlex';
+  src: url('./fonts/IBMPlexSansArabic-Light.ttf')
+  format('truetype');
+  font-weight: light;
+}
+
+@font-face {
+  font-family: 'IBMPlex';
+  src: url('./fonts/IBMPlexSansArabic-ExtraLight.ttf')
+  format('truetype');
+  font-weight: extralight;
+}
+
+@font-face {
+  font-family: 'IBMPlex';
+  src: url('./fonts/IBMPlexSansArabic-SemiBold.ttf')
+  format('truetype');
+  font-weight: semibold;
+}
+
+@font-face {
+  font-family: 'IBMPlex';
+  src: url('./fonts/IBMPlexSansArabic-Bold.ttf')
+  format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'IBMPlex';
+  src: url('./fonts/IBMPlexSansArabic-Medium.ttf')
+  format('truetype');
+  font-weight: medium;
+}
+
+.text{
+  font-family: 'IBMPlex';
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.textc{
+  width: 400px;
+  display: inline-block;
+}
+
+.link{
+  font-family: 'IBMPlex';
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.button{
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: 50%;
+  flex-direction: row;
+  position: absolute;
+  left: 32%;
+}
