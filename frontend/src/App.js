@@ -3,6 +3,7 @@ import './App.css';
 import Aurora from './components/Aurora';
 import Magnet from  './components/Magnet';
 import StarBorder from './components/StarBorder';
+import Counter from './components/Counter';
 
 function App() {
     useEffect(() => {});
@@ -29,15 +30,8 @@ function App() {
           >
             <p className="text">This is Adnan's Page</p>
           </StarBorder>
-          <StarBorder
-            as="button"
-            className="button"
-            color="cyan"
-            speed="5s"
-          >
-            <p className="link">my x</p>
-          </StarBorder>
         </div>
+        <Counter className="counter" />
       </header>
     </div>
   );

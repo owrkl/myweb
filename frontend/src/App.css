@@ -85,23 +85,19 @@
   display: inline-block;
 }
 
-.link{
-  font-family: 'IBMPlex';
-  font-weight: bold;
-  font-size: 25px;
-}
-
-.button{
-  display: inline-block;
-  padding: 10px 20px;
-}
-
 .buttons{
   display: flex;
   align-items: center;
-  justify-items: center;
-  width: 50%;
-  flex-direction: row;
-  position: absolute;
-  left: 32%;
+  justify-content: center; /* Center horizontally */
+  width: 100%; /* Take full width of the screen */
+  flex-direction: row; /* Ensure buttons are in a row */
+  position: relative; /* Adjust position to center properly */
+  margin: 0 auto; /* Center the container */
+}
+
+.counter{
+  font-family: 'IBMPlex';
+  font-weight: bold;
+  font-size: 25px;
+  border: #222222 solid 4px;
 }
