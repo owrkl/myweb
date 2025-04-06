@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import Aurora from './Aurora';
-import Magnet from  './Magnet';
-import StarBorder from './StarBorder';
+import Aurora from './components/Aurora';
+import Magnet from  './components/Magnet';
+import StarBorder from './components/StarBorder';
 
 function App() {
     useEffect(() => {});
