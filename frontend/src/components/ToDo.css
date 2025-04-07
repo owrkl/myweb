@@ -1,0 +1,60 @@
+.todo-container {
+  font-family: 'IBMPlex', sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.todo-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  margin-bottom: 10px;
+  font-family: 'IBMPlex', sans-serif;
+}
+
+.todo-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-family: 'IBMPlex', sans-serif;
+}
+
+.todo-button:hover {
+  background-color: #0056b3;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.todo-item {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  margin-bottom: 10px;
+  background-color: #fff;
+  font-family: 'IBMPlex', sans-serif;
+}

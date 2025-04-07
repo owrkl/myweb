@@ -4,6 +4,7 @@ import Aurora from './components/Aurora';
 import Magnet from  './components/Magnet';
 import StarBorder from './components/StarBorder';
 import Counter from './components/Counter';
+import ToDo from './components/ToDo';
 
 function App() {
     useEffect(() => {});
@@ -32,6 +33,7 @@ function App() {
           </StarBorder>
         </div>
         <Counter className="counter" />
+        <ToDo className="todo" />
       </header>
     </div>
   );
